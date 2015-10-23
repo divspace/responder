@@ -1,6 +1,7 @@
 {
     "name": "divspace/responder",
-    "description": "",
+    "description": "Laravel wrapper for Fractal",
+    "license": "MIT",
     "authors": [
         {
             "name": "Kyle Anderson",
@@ -14,12 +15,8 @@
         "league/fractal": "1.0.*"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
             "Divspace\\Responder\\": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
