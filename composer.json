@@ -1,6 +1,6 @@
 {
     "name": "divspace/responder",
-    "description": "Laravel wrapper for Fractal",
+    "description": "A Laravel 4 wrapper for Fractal to handle API responses",
     "license": "MIT",
     "authors": [
         {
@@ -13,6 +13,9 @@
         "illuminate/support": "4.2.*",
         "illuminate/pagination": "4.2.*",
         "league/fractal": "0.11.*"
+    },
+    "provide": {
+        "league/fractal": "Handle the output of complex data structures ready for API output"
     },
     "autoload": {
         "psr-0": {
