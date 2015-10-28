@@ -137,7 +137,7 @@ class UserTypeTransformer extends TransformerAbstract {
 }
 ````
 
-You'll want to refer to the full [Fractal documentation](http://fractal.thephpleague.com) to get an idea of everything works together.
+You'll want to refer to the full [Fractal documentation](http://fractal.thephpleague.com) to get an idea of how everything works together.
 
 ## Credit
 
