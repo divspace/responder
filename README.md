@@ -1,6 +1,6 @@
 # Responder
 
-A **Laravel 4** wrapper for [League/Fractal](http://fractal.thephpleague.com) to handle API responses. For **Laravel 5**, please [go here](https://github.com/salebab/larasponse/tree/L5).
+A **Laravel 4** wrapper for [Fractal](http://fractal.thephpleague.com) to handle API responses. For **Laravel 5**, please [go here](https://github.com/salebab/larasponse/tree/L5).
 
 ## Installation
 
@@ -42,7 +42,7 @@ use Divspace\Responder\Responder;
 use Data\Transformers\UserTransformer;
 
 class UserController extends BaseController {
-    public $response;
+    protected $response;
 
     public function __construct(Responder $response) {
         $this->response = $response;
