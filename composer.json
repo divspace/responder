@@ -1,6 +1,7 @@
 {
     "name": "divspace/responder",
     "description": "A Laravel 4 wrapper for Fractal to handle API responses",
+    "keywords": ["laravel", "json", "rest", "api"],
     "license": "MIT",
     "authors": [
         {
